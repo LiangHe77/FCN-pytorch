@@ -8,7 +8,7 @@ def onehot(data, n):
     return buf
 
     
-#该写的onehot
+#改写的onehot
 def onehot(data,n):
     buf = np.zeros(data.shape + (n, ))
     for i in range(len(data)):
